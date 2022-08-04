@@ -5,8 +5,199 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EXPONENTIAL</title>
+    <link rel="stylesheet" href="exponential.css">
 </head>
 <body>
+
+    <div class="cal">
+        <div class="cal_display">
+            <input type="text" id="input1" placeholder="0">
+        </div>
+       
+
+        <div class="cal_keys">
+            <div class="line">
+                <button
+                    id="MC">MC
+                </button>
+                
+                <button                    
+                    id="MR">MR
+                </button>
+                
+                <button
+                    id="M+">M+
+                </button>
+                
+                <button
+                    id="M-">M-
+                </button>
+                
+                <button
+                    id="MS">MS
+                </button>       
+            </div>
+    
+            
+            <div class="line">
+                <button
+                    id="%">%
+                </button>
+                
+                <button
+                    id="CE">CE
+                </button>
+                
+                <button
+                    id="C">C
+                </button>
+                
+                <button 
+                    id="Del"
+                    data-action="clear">AC              
+                </button>           
+            </div>
+    
+    
+            
+            <div class="line">           
+                <button
+                    id="1/x">1/x
+                </button>
+                
+                <button
+                    id="Exp">Exp
+                </button>
+                
+                <button           
+                    id=""
+                    data-action="sqrt">Sqrt       
+                </button>
+                
+                <button 
+                    id="div/"
+                    class=".key--operator"
+                    data-action="divide">&divide;
+                </button>        
+            </div>
+    
+    
+            <div class="line">
+                
+                <button 
+                    id="7"
+                    class="numb">7                   
+                </button>
+                
+                <button 
+                    id="8"
+                    class="numb">8
+                </button>
+                
+                <button  
+                    id="9"
+                    class="numb">9
+                </button>
+                
+                <button    
+                    id="mulx"
+                    class=".key--operator"
+                    data-action="multiply">&times;
+                </button>
+            </div>
+    
+    
+            <div class="line">
+                
+                <button 
+                    id="4"
+                    class="numb">4
+                </button>
+                
+                <button 
+                    id="5" 
+                    class="numb">5
+                </button>
+                
+                <button  
+                    id="6"
+                    class="numb">6
+                </button>
+                
+                <button   
+                    id="sub-" 
+                    class=".key--operator"
+                    data-action="substract">-
+                </button>            
+            </div>
+    
+    
+                
+            <div class="line">
+                <button  
+                    id="1"
+                    class="numb">1
+                </button>
+                
+                <button 
+                    id="2"
+                    class="numb">2          
+                </button>
+               
+                <button  
+                    id="3"
+                    class="numb"> 3              
+                </button>
+             
+                <button
+                    id="+"
+                    class=".key--operator"
+                    data-action="add">+  
+                </button>
+              
+            </div>
+    
+    
+            <div class="line"> 
+               <button
+                    id="+/-">+/-
+               </button>
+    
+               <button   
+                id="0"
+                class="numb" >0
+               </button>
+               
+               <button
+                    id="."
+                    data-action="decimal">.
+               </button>
+              
+                <button 
+                    id="equal"
+                    type="submit"
+                    data-action="calculate">=
+                </button>
+            
+            </div>  
+        </div>
+    </div>
+       
+
+
+    <hr>
+
+    <footer>
+        <div class="footer">
+            <img src="pic.JPG" alt="">&nbsp;&nbsp; 
+            <p>
+           Creation of &nbsp;   <span>Daniel U. Achilihu</span>
+            </p> 
+        </div>
+    </footer>
+
+
+
     <script type="text/javascript" src="exponential.js"></script> 
 </body>
 </html>
